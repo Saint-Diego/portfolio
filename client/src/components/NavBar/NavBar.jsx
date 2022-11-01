@@ -1,33 +1,26 @@
 import { NavLink } from "react-router-dom";
-import Container from "@mui/material/Container";
-import Header from "../Header/Header";
 
 const NavBar = () => {
-  const sections = [
-    { title: 'Technology', url: '#' },
-    { title: 'Design', url: '#' },
-    { title: 'Culture', url: '#' },
-    { title: 'Business', url: '#' },
-    { title: 'Politics', url: '#' },
-    { title: 'Opinion', url: '#' },
-    { title: 'Science', url: '#' },
-    { title: 'Health', url: '#' },
-    { title: 'Style', url: '#' },
-    { title: 'Travel', url: '#' },
-  ];
   
   return (
-    <Container>
-      <Header title="Portafolio" sections={sections} />
-      <nav className="navbar">
-        <NavLink to="/">Inicio</NavLink>
-        <div>
-          <NavLink to="/projects">Proyectos</NavLink>
-          <NavLink to="/resume">Resumen</NavLink>
-          <NavLink to="/about">Acerca de</NavLink>
+    <nav className="navbar navbar-expand-lg" style={{background: "#000000b3!important"}}>
+      <div className="container-fluid">
+        <NavLink to="/" className="btn btn-success navbar-brand">
+          <span className="fw-bold">Inicio</span>
+        </NavLink>
+        <div className="col-5 d-flex justify-content-end">
+          <NavLink to="/projects" className="btn btn-outline-success m-2">
+            <span className="fw-bold">Proyectos</span>
+          </NavLink>
+          <NavLink to="/detail" className="btn btn-outline-success m-2">
+            <span className="fw-bold">Resumen</span>
+          </NavLink>
+          <NavLink to="/about" className="btn btn-outline-success m-2">
+            <span className="fw-bold">Acerca de</span>
+          </NavLink>
         </div>
-      </nav>
-    </Container>
+      </div>
+    </nav>
   );
 };
 

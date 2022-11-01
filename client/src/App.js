@@ -1,6 +1,7 @@
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./components/About/About";
+import Detail from "./components/Detail/Detail";
 import Home from "./components/Home/Home";
 import NavBar from "./components/NavBar/NavBar";
 import NotFound from "./components/NotFound/NotFound";
@@ -9,11 +10,12 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="*" component={NotFound} />
-      </Switch>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/detail" element={<Detail />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </div>
   );
 }

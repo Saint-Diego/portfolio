@@ -7,6 +7,7 @@ const theme = createTheme({
   },
   toolbarTitle: {
     flex: 1,
+    color: "red",
   },
   toolbarSecondary: {
     justifyContent: "space-between",
