@@ -1,0 +1,12 @@
+.footer {
+  height: 150px;
+}
+
+.link-contactme {
+  color: #a3a3a3;
+  text-decoration: none;
+}
+
+.link-contactme:hover {
+  color: #ff6600;
+}

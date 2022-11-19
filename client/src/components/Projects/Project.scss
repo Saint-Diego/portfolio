@@ -1,0 +1,22 @@
+.project {
+  --v-width-card: 305px;
+  --v-height-card: 270px;
+  width: var(--v-width-card);
+  height: var(--v-height-card);
+  &:hover {
+    width: calc(var(--v-width-card) * 0.375rem);
+    height: calc(var(--v-height-card) * 0.375rem);
+    box-shadow: 6px 5px 20px #000000;
+    & .image-project {
+      width: calc(var(--v-width-img) + 1rem);
+      height: calc(var(--v-height-img) + 1rem);
+    }
+  }
+}
+
+.image-project {
+  --v-width-img: 270px;
+  --v-height-img: 150px;
+  width: var(--v-width-img);
+  height: var(--v-height-img);
+}

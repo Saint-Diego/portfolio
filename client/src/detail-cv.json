@@ -1,0 +1,158 @@
+{
+  "proffesion": "Full Stack Web Developer",
+  "firstName": "Diego Armando",
+  "lastName": "López Beltrán",
+  "description": "Estudié 8 semestres de Ingeniería de Sistemas, efectué seminarios de tecnología bajo una fundación para estudiantes de educación media, también hice labores de mantenimiento correctivo y preventivo para equipos de oficina. Finalicé diplomados con respecto al desarrollo de aplicaciones web. Me gusta participar en la realización de actividades, tareas y requerimientos en el desarrollo del software.Poder aportar y apoyar con soluciones al equipo de trabajo. Mi gran habilidad es la capacidad de aprender, entender y adaptarme muy rápido a las nuevas tecnologías y a los diferentes tipos de ambientes que están relacionas con el mercado tech.",
+  "projects": [
+    {
+      "url": "https://don-quijote.vercel.app/",
+      "title": "https://don-quijote.vercel.app/"
+    },
+    {
+      "url": "https://front-end-countries.vercel.app/",
+      "title": "https://front-end-countries.vercel.app/"
+    },
+    {
+      "url": "https://github.com/Saint-Diego/books",
+      "title": "https://github.com/Saint-Diego/books"
+    }
+  ],
+  "workExperience": [
+    {
+      "jobTitle": "Lider GEL",
+      "company": "Alcaldía Municipal",
+      "date": {
+        "start": "Noviembre 2014",
+        "end": "Julio 2019"
+      },
+      "location": {
+        "country": "Colombia",
+        "state": "Sucre",
+        "city": "Toluviejo"
+      },
+      "functions": [
+        "Gestionar, promover, divulgar y evaluar las diferentes convocatorias que inicie el Ministerio TIC."
+      ],
+      "achievements": [
+        "Gestioné la instalación de terminales y equipos para el acceso a internet gratis para la ciudadanía llamados 'Zona WIFI para la gente'."
+      ]
+    },
+    {
+      "jobTitle": "Técnico de Mantenimiento",
+      "company": "GT GROUP S.A.S.",
+      "date": {
+        "start": "Enero 2013",
+        "end": "Octubre 2014"
+      },
+      "location": {
+        "country": "Colombia",
+        "state": "Bogotá",
+        "city": "Bogotá D.C"
+      },
+      "functions": [
+        "Ejecutar actividades de mantenimiento preventivo sobre los equipos de computación e impresoras.",
+        "Realizar reportes de estado de los equipos de computación e impresoras."
+      ],
+      "achievements": []
+    }
+  ],
+  "education": [
+    {
+      "entity": "Henry",
+      "title": "Full Stack Web Developer",
+      "state": "culminado",
+      "date": {
+        "start": "Agosto 2021",
+        "end": "Octubre 2022"
+      },
+      "location": {
+        "country": "Argentina",
+        "state": "Buenos Aires",
+        "city": "CABA"
+      }
+    },
+    {
+      "entity": "Universidad Autónoma de Bucaramanga - UNAB",
+      "title": "Técnico Laboral en Habilidades en Programación con Énfasis en Aplicaciones Web",
+      "state": "culminado",
+      "date": {
+        "start": "Marzo 2021",
+        "end": "Diciembre 2021"
+      },
+      "location": {
+        "country": "Colombia",
+        "state": "Santander",
+        "city": "Bucaramanga"
+      }
+    },
+    {
+      "entity": "Corporación Universitaria del Carbie - CECAR",
+      "title": "Ingeniería de Sistemas - 4 años",
+      "state": "suspendido",
+      "date": {
+        "start": "Enero 2007",
+        "end": "Septiembre 2014"
+      },
+      "location": {
+        "country": "Colombia",
+        "state": "Sucre",
+        "city": "Sincelejo"
+      }
+    }
+  ],
+  "perfil": {
+    "image": "https://res.cloudinary.com/dah19wrh1/image/upload/v1668050902/dev/assets/perfil/foto-perfil-cv.jpg",
+    "contacts": {
+      "phone": "+57 3122878866",
+      "email": "ing.diegolopezb@gmail.com"
+    },
+    "techSkill": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Redux",
+      "Redux/Toolkit",
+      "Node.js",
+      "Express",
+      "Sequelize",
+      "Bootstrap v5",
+      "PostgreSQL",
+      "Python",
+      "Java (8, 11)",
+      "Maven",
+      "Spring",
+      "JPA",
+      "MySQL",
+      "MongoDB",
+      "Apache Tomcat",
+      "Postman",
+      "Vue.js",
+      "Next.js",
+      "Laravel",
+      "Trello",
+      "Git",
+      "Scrum"
+    ],
+    "softSkill": [
+      "pensamiento creativo",
+      "resolución de problemas",
+      "trabajo en equipo",
+      "comunicación",
+      "autonomía",
+      "respeto",
+      "pensamiento crítico, lógico y analítico",
+      "liderazgo",
+      "resiliencia",
+      "adaptabilidad",
+      "aprendizaje ágil",
+      "escucha activa",
+      "mente abierta",
+      "responsabilidad",
+      "sociabilidad",
+      "empatía",
+      "proactividad",
+      "colaboración"
+    ]
+  }
+}

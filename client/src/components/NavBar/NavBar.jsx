@@ -1,23 +1,33 @@
 import { NavLink } from "react-router-dom";
+import HomeIcon from "@mui/icons-material/Home";
+import InfoIcon from "@mui/icons-material/Info";
+import MoreIcon from "@mui/icons-material/MoreHoriz";
+import ProjectsIcon from "@mui/icons-material/AccountTree";
+import "./NavBar.css";
+import CustomizedSwitches from "../CustomizedSwitches/CustomizedSwitches.jsx";
 
 const NavBar = () => {
   
   return (
-    <nav className="navbar navbar-expand-lg" style={{background: "#000000b3!important"}}>
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <NavLink to="/" className="btn btn-success navbar-brand">
-          <span className="fw-bold">Inicio</span>
+        <NavLink to="/" className="link align-middle mx-3 p-2">
+          <HomeIcon />
         </NavLink>
         <div className="col-5 d-flex justify-content-end">
-          <NavLink to="/projects" className="btn btn-outline-success m-2">
+          <NavLink to="/projects" className="link align-middle mx-3 p-2">
             <span className="fw-bold">Proyectos</span>
+            <ProjectsIcon />
           </NavLink>
-          <NavLink to="/detail" className="btn btn-outline-success m-2">
+          <NavLink to="/detail" className="link align-middle mx-3 p-2">
             <span className="fw-bold">Resumen</span>
+            <MoreIcon />
           </NavLink>
-          <NavLink to="/about" className="btn btn-outline-success m-2">
+          <NavLink to="/about" className="link align-middle mx-3 p-2">
             <span className="fw-bold">Acerca de</span>
+            <InfoIcon />
           </NavLink>
+          <CustomizedSwitches />
         </div>
       </div>
     </nav>

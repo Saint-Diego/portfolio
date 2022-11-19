@@ -2,11 +2,10 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import { ThemeProvider } from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
+import { StyledEngineProvider } from '@mui/material/styles';
 import './index.css';
 import App from './App';
-import theme from "./themes/theme";
 import reportWebVitals from './reportWebVitals';
 
 import store from './store/index';
@@ -16,12 +15,12 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <ThemeProvider theme={theme}>
+      <StyledEngineProvider injectFirst>
         <Router>
           <CssBaseline />
           <App />
         </Router>
-      </ThemeProvider>
+      </StyledEngineProvider>
     </Provider>
   </React.StrictMode>
 );

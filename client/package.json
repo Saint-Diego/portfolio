@@ -7,9 +7,9 @@
     "@emotion/styled": "^11.10.5",
     "@fontsource/roboto": "^4.5.8",
     "@mui/icons-material": "^5.10.9",
-    "@mui/material": "^5.10.11",
+    "@mui/material": "^5.10.12",
     "@mui/styled-engine-sc": "^5.10.6",
-    "@reduxjs/toolkit": "^1.8.5",
+    "@reduxjs/toolkit": "^1.9.0",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^13.1.1",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack --watch",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -48,5 +48,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "sass": "^1.56.0",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "main": "index.js",
+  "author": "Diego Lopez Beltran",
+  "license": "ISC",
+  "description": ""
 }
