@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-4 d-block">
-            <h4 className="text-decoration-underline">Asistencia</h4>
+            <h4 className="text-decoration-underline">Soporte</h4>
             <CommentIcon className="me-1" htmlColor="#fff" />
             <Link className="link-contactme" to="/contactme">
               Escríbeme
