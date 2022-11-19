@@ -1,3 +1,44 @@
+form {
+  width: 20%;
+}
+
 .App {
+  background: rgba(0, 0, 0, 0.582);
+  width: 100%;
   text-align: center;
+}
+
+.container-height {
+  min-height: 130vh;
+}
+
+.button-flame {
+  background: linear-gradient(to right, #f5af19, #f12711);
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+
+.button-flame:hover {
+  color: #2b2525;
+}
+
+.icon-lk, .icon-gh, .icon-fb, .icon-yt {
+  color: #fff;
+}
+
+.icon-lk:hover {
+  color: #0d6efd;
+}
+
+.icon-gh:hover {
+  color: #000000;
+}
+
+.icon-fb:hover {
+  color: #0e60db;
+}
+
+.icon-yt:hover {
+  color: #ff0000;
 }

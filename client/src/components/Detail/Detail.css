@@ -1,17 +1,3 @@
-/*......................*/
-/* contenido de la raíz */
-/*......................*/
-
-body {
-  background-color: #E5E5E5;
-  font-family: 'Montserrat', 'Arial';
-}
-
-li {
-  line-height: 24px;
-  background-color: transparent;
-}
-
 /*.....................*/
 /* Contenido principal */
 /*.....................*/
@@ -20,7 +6,6 @@ li {
   display: flex;
   flex-direction: row-reverse;
   background-color: white;
-  width: 1200px;
   margin: 40px auto;
 }
 /*.....................*/

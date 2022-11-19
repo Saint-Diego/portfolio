@@ -1,0 +1,36 @@
+.root {
+  width: 42px;
+  height: 26px;
+  padding: 0;
+  margin: 1px,
+}
+
+.switchBase {
+  padding: 1px;
+  &checked {
+    transform: translateX(16px);
+    color: white;
+    & + track {
+      background-color: #52d869;
+      opacity: 1;
+      border: 'none';
+    };
+  };
+  &thumb {
+    color: #52d869;
+    border: 6px solid #fff;
+  };
+}
+
+.thumb {
+  width: 24px;
+  height: 24px;
+}
+
+.track {
+  border-radius: 26 / 2;
+  border: 1px solid rgb(58, 58, 58);
+  background-color: rgb(185, 185, 185);
+  opacity: 1;
+  transition: rgb(185, 185, 185) 1px solid rgb(58, 58, 58);
+}

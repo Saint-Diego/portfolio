@@ -1,30 +1,46 @@
 import { Link } from "react-router-dom";
-import fotoPerfil from "../../assests/foto-perfil.jpg";
+import NetWork from "@mui/icons-material/LanguageOutlined";
+import "./Home.css";
+
+const fotoPerfil = "https://res.cloudinary.com/dah19wrh1/image/upload/v1668044805/dev/assets/perfil/foto-perfil.png";
+
 const Home = () => {
   return (
-    <div className="container">
-      <div className="card m-3" style={{boxShadow: "#00000066 5px 0px 20px"}}>
-        <div className="card-header">
-          <img style={{borderRadius: "50%", border: "1px groove #000000", boxShadow: "#00000042 5px 0px 20px"}} src={fotoPerfil} alt="Mi foto de perfil" width={300} height={300} />
+    <div className="container container-height">
+      <div className="card border-0 m-3 bg-transparent">
+        <div className="card-header border-0 bg-transparent">
+          <img
+            className="image-perfil"
+            src={fotoPerfil}
+            alt="Mi foto de perfil"
+          />
         </div>
-        <div className="card-body">
-          <div>
-            <h3>Diego López Beltrán</h3>
-            <h4>Full Stack Web Developer</h4>
+        <div className="card-body border-0 bg-transparent text-white">
+          <div className="info">
+            <h1 className="fw-bolder">Diego López Beltrán</h1>
+            <div className="d-flex justify-content-center align-middle">
+              <NetWork className="bg-info rounded-circle me-1" />
+              <h4 className="fw-semibold me-1">Full Stack Web Developer</h4>
+              <NetWork className="bg-info rounded-circle me-1"  />
+            </div>
             <div>
-              <h5>Habilidades Técnicas</h5>
+              <h5 className="fw-semibold">~ Habilidades Técnicas ~</h5>
               <p>
-                JavaScript | Node | Express | Sequelize | MySQL | PostgreSQL | React | Redux | HTML | CSS | Java (8, 11) | Maven | Spring Boot | MongoDB
+                JavaScript | Node | Express | Sequelize | MySQL | PostgreSQL |
+                React | Redux | HTML | CSS | Java (8, 11) | Maven | Spring Boot
+                | MongoDB
               </p>
             </div>
           </div>
         </div>
-        <div className="card-footer">
-          <Link to="detail" className="btn btn-primary">Más Información</Link>
+        <div className="card-footer border-0 bg-transparent">
+          <Link to="detail" className="btn button-flame">
+            Más Información
+          </Link>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;

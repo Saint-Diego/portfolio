@@ -1,0 +1,14 @@
+nav {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.link {
+  color: #ff6600;
+  text-decoration: none;
+  transition: all 0.5s ease-in;
+}
+
+.link:hover, .link:focus {
+  background-color: transparent!important;
+  color: #a3a3a3;
+}
