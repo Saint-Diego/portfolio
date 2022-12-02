@@ -7,7 +7,7 @@ const FormPQRS = () => {
   };
 
   return (
-    <div className="container container-height">
+    <div className="container">
       <form className="form-control my-5" onSubmit={handleSubmit}>
         <div className="form-group my-3">
           <input className="form-control" type="text" placeholder="Ingrese nombre" />
