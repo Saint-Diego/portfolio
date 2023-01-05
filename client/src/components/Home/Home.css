@@ -1,6 +1,6 @@
 .image-perfil {
   width: 500px;
-  height: 500px;
+  /* height: 500px; */
   border-radius: 50% 50% 50% 0;
   border: 1px groove #ff6600;
   box-shadow: #ffffff30 0px 0px 20px;
