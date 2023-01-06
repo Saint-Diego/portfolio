@@ -6,6 +6,7 @@ form {
   background: rgba(0, 0, 0, 0.582);
   width: 100%;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .container-height {
