@@ -30,7 +30,7 @@ const projects = [
 const Projects = () => {
   return (
     <div className="container container-height my-5">
-      <div className="d-flex">
+      <div className="d-flex flex-column align-items-center gap-4 flex-lg-row">
         {projects.map((project, idx) => (
           <Project
             key={`project-${idx + 1}`}

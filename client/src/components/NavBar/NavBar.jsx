@@ -32,19 +32,19 @@ const NavBar = () => {
     //     </div>
     //   </div>
     // </nav>
-    <Navbar bg="light" expand="lg">
-      <Container className='border border-1 border-success'>
-        <Navbar.Brand className='border border-primary'>
+    <Navbar className="d-flex align-items-start" expand="lg">
+      <Container>
+        <Navbar.Brand>
           <NavLink to="/" className="link align-middle mx-3 p-2">
             <HomeIcon />
           </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse className='border border-warning text-end' id="basic-navbar-nav">
+        <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav>
             <Nav.Link>
               <NavLink to="/" className="link align-middle mx-3 p-2">
-                Home
+                <span className="fw-bold">Home</span>
               </NavLink>
             </Nav.Link>
             <Nav.Link>
@@ -76,6 +76,9 @@ const NavBar = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
+      <Navbar.Brand>
+        <CustomizedSwitches />
+      </Navbar.Brand>
     </Navbar>
   );
 };

@@ -13,8 +13,8 @@ const Footer = () => {
   return (
     <>
       <footer className="footer bg-dark bg-gradient py-4">
-        <section className="row">
-          <div className="col-4 d-block">
+        <section className="d-flex flex-column align-items-center gap-4 flex-md-row">
+          <div className="col-12 col-md-4 d-block">
             <h4 className="text-decoration-underline">Redes Sociales</h4>
             <a
               className="mx-3 icon-lk"
@@ -45,7 +45,7 @@ const Footer = () => {
               <YouTubeIcon />
             </a>
           </div>
-          <div className="col-4 d-block">
+          <div className="col-12 col-md-4 d-block">
             <h4 className="text-decoration-underline">Contacto</h4>
             <div className="d-block">
               <PhoneIcon className="me-1" htmlColor="#fff" />
@@ -63,7 +63,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="col-4 d-block">
+          <div className="col-12 col-md-4 d-block">
             <h4 className="text-decoration-underline">Soporte</h4>
             <CommentIcon className="me-1" htmlColor="#fff" />
             <Link className="link-contactme" to="/contactme">

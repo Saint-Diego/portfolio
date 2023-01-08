@@ -10,7 +10,7 @@ const Home = () => {
       <div className="card border-0 m-3 bg-transparent">
         <div className="card-header border-0 bg-transparent">
           <img
-            className="image-perfil"
+            className="img-fluid image-perfil"
             src={fotoPerfil}
             alt="Mi foto de perfil"
           />
